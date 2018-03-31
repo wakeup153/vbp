@@ -1,9 +1,9 @@
 ## vbp 帮你自动搭建一个简单易用的前端业务框架。
-#### QQ讨论群:`255965810`
+
 # 如何使用
 ```
 $ npm install -g vue-cli
-$ vue init halower/vbp  my-project
+$ vue init wakeup153/vbp  my-project
 $ cd my-project
 $ npm install
 $ npm run dev
