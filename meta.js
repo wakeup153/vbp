@@ -88,5 +88,5 @@ module.exports = {
     "test/e2e/**/*": "e2e",
     "src/router/**/*": "router"
   },
-  "completeMessage": "***************************************************\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n***************************************************"
+  "completeMessage": "*********************************************************\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n*********************************************************"
 };
