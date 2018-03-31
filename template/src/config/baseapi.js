@@ -51,7 +51,7 @@ export default class BaseApiController {
   }
   delete (url, params) {
     return new Promise((resolve, reject) => {
-      axios.delete(url, {params: params})
+      axios.delete(url, {params})
         .then(response => {
           resolve(response.data)
         }, err => {
