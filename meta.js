@@ -72,11 +72,11 @@ module.exports = {
     },
     "unit": {
       "type": "confirm",
-      "message": "安装测试框架 Karma + Mocha?"
+      "message": "是否安装测试框架 Karma + Mocha?"
     },
     "e2e": {
       "type": "confirm",
-      "message": "使用Nightwatch进行端到端测试?"
+      "message": "是否使用Nightwatch进行端到端测试?"
     }
   },
   "filters": {
@@ -88,5 +88,5 @@ module.exports = {
     "test/e2e/**/*": "e2e",
     "src/router/**/*": "router"
   },
-  "completeMessage": "##########################################\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n##########################################\n"
+  "completeMessage": "***************************************************\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n***************************************************"
 };
