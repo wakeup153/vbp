@@ -34,7 +34,7 @@ module.exports = {
           "short": "standalone"
         },
         {
-          "name": "运行时版本：约6KB的打包机min+ gzip，但模板（或任何Vue特定的HTML）只允许在.vue文件中 - 渲染功能需要在其他地方",
+          "name": "运行时版本：约6KB的打包机 min+gzip，但模板（或任何Vue特定的HTML）只允许在.vue文件中 - 渲染功能需要在其他地方",
           "value": "runtime",
           "short": "runtime"
         }
@@ -42,11 +42,11 @@ module.exports = {
     },
     "router": {
       "type": "confirm",
-      "message": "安装 路由?"
+      "message": "是否安装路由?"
     },
     "lint": {
       "type": "confirm",
-      "message": "使用 ESLint 规范 你的代码?"
+      "message": "使用 ESLint 规范你的代码?"
     },
     "lintConfig": {
       "when": "lint",
@@ -88,5 +88,5 @@ module.exports = {
     "test/e2e/**/*": "e2e",
     "src/router/**/*": "router"
   },
-  "completeMessage": "#####################\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n#####################\n"
+  "completeMessage": "##########################################\n\n友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n##########################################\n"
 };
