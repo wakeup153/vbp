@@ -34,7 +34,7 @@ module.exports = {
           "short": "standalone"
         },
         {
-          "name": "运行时版本：约6KB的打包机最小+ gzip，但模板（或任何Vue特定的HTML）只允许在.vue文件中 - 渲染功能需要在其他地方",
+          "name": "运行时版本：约6KB的打包机min+ gzip，但模板（或任何Vue特定的HTML）只允许在.vue文件中 - 渲染功能需要在其他地方",
           "value": "runtime",
           "short": "runtime"
         }
@@ -88,5 +88,5 @@ module.exports = {
     "test/e2e/**/*": "e2e",
     "src/router/**/*": "router"
   },
-  "completeMessage": "友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n如有疑问请联系QQ:121625933"
+  "completeMessage": "友情提示: 编程有害身体,为了你和家人的健康，请到野外编程\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev"
 };
