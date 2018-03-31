@@ -10,7 +10,6 @@ export default class BaseApiController {
     this._req = request
     Object.keys(this._req).forEach(key => this._proxy(key))
   }
-
   _proxy (key) {
     let _ = this
     Object.defineProperty(_, key, {
@@ -24,7 +23,6 @@ export default class BaseApiController {
       }
     })
   }
-
   get (url, params) {
     return new Promise((resolve, reject) => {
       axios.get(url, {params})
@@ -38,7 +36,6 @@ export default class BaseApiController {
         })
     })
   }
-
   post (url, params) {
     return new Promise((resolve, reject) => {
       axios.post(url, params)
@@ -52,7 +49,6 @@ export default class BaseApiController {
         })
     })
   }
-
   delete (url, params) {
     return new Promise((resolve, reject) => {
       axios.delete(url, {params: params})
@@ -66,7 +62,6 @@ export default class BaseApiController {
         })
     })
   }
-
   put (url, params) {
     return new Promise((resolve, reject) => {
       axios.put(url, params)
@@ -79,9 +74,5 @@ export default class BaseApiController {
           reject(error)
         })
     })
-  }
-
-  all(promises) {
-    return Promise.all(promises)
   }
 }
